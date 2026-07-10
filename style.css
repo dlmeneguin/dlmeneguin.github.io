@@ -313,4 +313,7 @@ footer { border-top: 1px solid var(--border); padding: 2rem 1.5rem; position: re
 @media (max-width: 767px) {
   .nav-links, .nav-hire { display: none; }
   .hamburger { display: block; }
+  .desktop-only {
+    display: none;
+  }
 }
