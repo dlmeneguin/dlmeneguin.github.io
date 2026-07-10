@@ -158,13 +158,14 @@ nav {
 .hero-eyebrow .line { width: 2rem; height: 1px; background: var(--primary); }
 h1 {
   font-family: var(--font-disp);
-  font-size: clamp(3.5rem, 8vw, 6rem);
+  font-size: clamp(3rem, 8vw, 6rem);
   font-weight: 800; 
   line-height: 0.95;
   text-transform: uppercase;
   
-  width: max-content; 
-  max-width: 100%; 
+  width: 100%;
+  max-width: 680px;
+  display: block;
 }
 #hero h1 {
   max-width: 750px;
